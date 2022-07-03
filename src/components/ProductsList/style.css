@@ -1,0 +1,23 @@
+.vitrineProducts {
+  padding-left: 16px;
+  list-style: none;
+
+  display: flex;
+
+  overflow-y: scroll;
+}
+
+@media (min-width: 1080px) {
+  .vitrineProducts {
+    width: 65%;
+
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+
+    overflow: hidden;
+  }
+}

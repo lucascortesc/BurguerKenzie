@@ -1,0 +1,21 @@
+body {
+  font-family: "Inter";
+}
+
+button:hover {
+  filter: brightness(1.2);
+}
+
+@media (min-width: 1080px) {
+  .cointeiner__main {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 1800px) {
+  .cointeiner__main {
+    padding: 0px 120px;
+  }
+}
